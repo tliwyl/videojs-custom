@@ -1,0 +1,15 @@
+.vjs-horse-race-lamp{
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    overflow: hidden;
+    .vjs-race-lamp-text{
+        position: absolute;
+        font-size:16px;
+        color:#fff;
+        left:0;
+        top:0;
+    }
+}

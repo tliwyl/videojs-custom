@@ -1,0 +1,28 @@
+.vjs-logo-wrapper{
+    position: absolute;
+    width:200px;
+    height:100px;
+    background-size:contain;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    &.left-top{
+        top:20px;
+        left:20px;
+        background-position:left top;
+    }
+    &.right-top{
+        top:20px;
+        right:20px;
+        background-position:right top;
+    }
+    &.left-bottom{
+        bottom:20px;
+        left:20px;
+        background-position:left bottom;
+    }
+    &.right-bottom{
+        bottom:20px;
+        right:20px;
+        background-position:right bottom;
+    }
+}
